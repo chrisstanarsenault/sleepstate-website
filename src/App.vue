@@ -1,11 +1,13 @@
 <template>
-  <div class="w-full h-screen bg-[url('./assets/band3.jpg')] bg-cover bg-center text-white">
-    <Header />
-
-    <RouterView />
+  <div class="bg-black space-y-4">
+    <Landing />
+    <Video />
+    <Music />
   </div>
 </template>
 
 <script setup lang="ts">
-import Header from '#components/header/header.vue'
+import Landing from '#pages/landing.vue'
+import Video from '#pages/video.vue'
+import Music from '#pages/music.vue'
 </script>

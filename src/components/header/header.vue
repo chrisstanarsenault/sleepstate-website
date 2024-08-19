@@ -1,26 +1,26 @@
 <template>
-  <header class="w-full flex justify-between px-20 py-10 relative">
-    <h1 class="text-2xl text-white">
+  <header class="absolute top-0 w-full flex justify-between px-20 py-10 bg-black">
+    <h1 class="text-4xl text-white">
       Sleepstate
     </h1>
 
     <div>
       <nav class="text-lg space-x-4">
-        <RouterLink to="/">
+        <a href="#landing">
           Home
-        </RouterLink>
+        </a>
 
-        <RouterLink to="/music">
+        <a href="#music">
           Music
-        </RouterLink>
+        </a>
 
-        <RouterLink to="/shows">
+        <a href="#shows">
           Shows
-        </RouterLink>
+        </a>
 
-        <RouterLink to="/about">
+        <a href="#about">
           About
-        </RouterLink>
+        </a>
       </nav>
     </div>
   </header>
