@@ -6,6 +6,7 @@
     <Albums />
     <MusicVideos />
     <Shows />
+    <Footer />
   </div>
 </template>
 
@@ -16,4 +17,5 @@ import Listen from '#pages/listen.vue'
 import Albums from '#pages/albums.vue'
 import MusicVideos from '#pages/music-videos.vue'
 import Shows from '#pages/shows.vue'
+import Footer from '#components/footer/footer.vue'
 </script>

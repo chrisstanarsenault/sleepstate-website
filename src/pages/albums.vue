@@ -26,8 +26,19 @@
       </p>
 
       <div class="space-x-4 flex">
-        <Spotify class="w-8 h-8" />
-        <AppleMusic class="w-8 h-8" />
+        <a
+          href="https://open.spotify.com/artist/7m6oY8iyHKC2x8tBpiWDjo?si=8Pa-SjTSTHaN20QMdCM94g"
+          target="_blank"
+        >
+          <Spotify class="w-8 h-8" />
+        </a>
+
+        <a
+          href="#"
+          target="_blank"
+        >
+          <AppleMusic class="w-8 h-8" />
+        </a>
       </div>
     </div>
   </section>
