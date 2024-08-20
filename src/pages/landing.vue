@@ -13,10 +13,30 @@
       </div>
 
       <div class="col-span-1 space-y-8 flex flex-col justify-end items-center bg-gray-900 p-4">
-        <Instagram class="w-8 h-8" />
-        <Linktree class="w-8 h-8" />
-        <Spotify class="w-8 h-8" />
-        <Youtube class="w-8 h-8" />
+        <a
+          href="#"
+          target="_blank"
+        >
+          <Instagram class="w-8 h-8" />
+        </a>
+        <a
+          href="https://www.linktr.ee/sleepstate"
+          target="_blank"
+        >
+          <Linktree class="w-8 h-8" />
+        </a>
+        <a
+          href="https://open.spotify.com/artist/7m6oY8iyHKC2x8tBpiWDjo?si=8Pa-SjTSTHaN20QMdCM94g"
+          target="_blank"
+        >
+          <Spotify class="w-8 h-8" />
+        </a>
+        <a
+          href="https://www.youtube.com/@wearesleepstate"
+          target="_blank"
+        >
+          <Youtube class="w-8 h-8" />
+        </a>
       </div>
     </div>
   </section>
