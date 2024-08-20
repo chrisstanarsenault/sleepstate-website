@@ -1,5 +1,12 @@
 <template>
-  <section class="w-full">
+  <section
+    id="albums"
+    class="flex flex-col justify-center items-center text-white space-y-10 bg-gray-900 py-16"
+  >
+    <h3 class="text-5xl">
+      Albums
+    </h3>
+
     <div class="flex space-x-4 justify-center">
       <img
         :src="VersionsAlbum"

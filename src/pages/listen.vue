@@ -1,5 +1,8 @@
 <template>
-  <section class="flex flex-col justify-center items-center text-white space-y-10">
+  <section
+    id="listen"
+    class="flex flex-col justify-center items-center text-white space-y-10 bg-gray-900 py-16"
+  >
     <div class="text-center space-y-4">
       <h3 class="text-5xl">
         Listen to the new single

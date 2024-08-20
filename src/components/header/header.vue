@@ -10,16 +10,16 @@
           Home
         </a>
 
-        <a href="#music">
-          Music
+        <a href="#listen">
+          Listen
         </a>
 
-        <a href="#shows">
-          Shows
+        <a href="#albums">
+          Albums
         </a>
 
-        <a href="#about">
-          About
+        <a href="#music-videos">
+          Videos
         </a>
       </nav>
     </div>

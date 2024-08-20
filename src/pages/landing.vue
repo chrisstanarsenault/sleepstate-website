@@ -5,14 +5,14 @@
   >
     <Header />
 
-    <div class="grid grid-cols-12 gap-4 h-full bg-[url('./assets/band3.jpg')] bg-cover bg-center">
-      <div class="col-span-11">
+    <div class="grid grid-cols-12 gap-x-4 h-full">
+      <div class="col-span-11 bg-[url('./assets/band3.jpg')] bg-cover bg-center">
         <h2 class="text-8xl">
           We are Sleepstate
         </h2>
       </div>
 
-      <div class="col-span-1 space-y-8 flex flex-col justify-end items-center bg-black p-4">
+      <div class="col-span-1 space-y-8 flex flex-col justify-end items-center bg-gray-900 p-4">
         <Instagram class="w-8 h-8" />
         <Linktree class="w-8 h-8" />
         <Spotify class="w-8 h-8" />
