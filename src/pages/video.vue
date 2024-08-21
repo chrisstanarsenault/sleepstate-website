@@ -4,7 +4,7 @@
       autoplay
       loop
       muted
-      class="w-full h-96 object-cover"
+      class="w-full h-52 md:h-96 object-cover"
     >
       <source
         :src="Video"
