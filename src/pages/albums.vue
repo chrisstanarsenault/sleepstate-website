@@ -1,22 +1,22 @@
 <template>
   <section
     id="albums"
-    class="flex flex-col justify-center items-center text-white space-y-10 bg-gray-900 py-16"
+    class="flex flex-col justify-center items-center text-white space-y-10 bg-gray-900 py-8 md:py-16"
   >
-    <h3 class="text-5xl">
+    <h3 class="text-3xl md:text-5xl">
       Albums
     </h3>
 
-    <div class="flex space-x-4 justify-center">
+    <div class="flex flex-col md:flex-row space-y-4 md:space-x-4 items-center md:justify-center px-4 md:px-0">
       <img
         :src="VersionsAlbum"
         alt="Versions Album"
-        class="w-96 h-96 object-cover"
+        class="w-full md:w-96 aspect-square object-cover"
       >
       <img
         :src="YouComeBeforeYouAlbum"
         alt="You Come Before You Album"
-        class="w-96 h-96 object-cover"
+        class="w-full md:w-96 aspect-square object-cover"
       >
     </div>
 
